@@ -1,0 +1,67 @@
+@media screen and (max-width: 600px){
+    .header-section{
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+
+}
+
+.nav-right{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.selection-part{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sec3-heading-title{
+    text-align: center;
+}
+.section-3{
+    text-align: center;
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+}
+.div1, .div2, .div3{
+    display: flex;
+    flex-direction: column;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+}
+.middle-left{
+    margin: 0 0 20px 0;
+}
+.middle-right{
+    margin: 0 0 20px 0;
+}
+.bottom{
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+.sec3-heading-description{
+    margin: 0;
+    padding: 0;
+}
+.section-6{
+    display: flex;
+    flex-direction: column;
+}
+.section-7{
+    display: flex;
+    flex-direction: column;
+}
+
+}
