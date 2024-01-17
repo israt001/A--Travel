@@ -1,21 +1,31 @@
 @media screen and (max-width: 600px){
     .header-section{
-    flex-direction: column;
+    flex-direction: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 16px;
-
+    padding: 0 5px;
 }
 
+video{
+    max-width: 100%;
+    margin: 0 auto;
+}
 .nav-right{
     display: none;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+}
+.nav-icon{
+    display: block;
+    font-size: 1.5rem;
 }
 .selection-part{
     display: flex;
     flex-direction: column;
 }
+.sec1-btn{
+    width: 100%;
+    
+}
+
 
 .section-2{
     display: flex;
@@ -63,5 +73,15 @@
     display: flex;
     flex-direction: column;
 }
-
+.sec6-bulletpoint{
+    padding-left: 20px;
+}
+.image-container img{
+  height: 300px;
+   
+}
+.comt{
+    display: flex;
+    flex-direction: column;
+}
 }

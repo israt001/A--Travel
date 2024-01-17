@@ -10,17 +10,22 @@
     font-family: Mulish; 
 }
 
+.container {
+    max-width: 82.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* for navbar section */
 .header-section{
     width: 100%;
-    padding: 0 7%;
     display: flex;
     margin-top: 52px;
     margin-bottom: 48px
 }
 .nav-left{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     min-height: 56px;
     display: flex;
     align-items: center;
@@ -34,6 +39,13 @@
     margin-right: 16px;
 }
 
+.nav-icon{
+    display: none;
+}
+
+.div1 img{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+}
 .logo-name{
     color: #131318;
     font-family: Mulish;
@@ -44,7 +56,7 @@
 }
 
 .nav-right{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     min-height: 56px;
     display: flex;
     align-items: center;
@@ -68,19 +80,19 @@
 
 
 /* section one */
-
+.selection-part-phone{
+    display: none;
+}
 .section_one{
     background: linear-gradient(to bottom, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(Images/Group\ 13\ \(1\)\ \(1\).png);
-    max-width: 100%;
+    max-width: 82.5%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* margin: 0 7%; */
-    max-width: 82.5%;
-   margin: 0 auto;
+    margin: 0 auto;
    margin-top: 96px;
     border-radius: 1rem;  
     text-align: center;  
@@ -157,17 +169,16 @@
 /* section-02 */
 .section-2{
     display: flex;
-    padding: 0 10%;
     gap: 52px;
     margin-top: 9%;
     align-items: center;
 }
 
 .section-2-left{
-    width: 50%;
+    width: 100%;
 }
 .section-2-right{
-    width: 50%;
+    width: 100%;
 }
 
 .section-2-right img{
@@ -206,8 +217,6 @@
 .section-3{
    /* padding: 50px;
    padding-right: 45px; */
-   max-width: 82.5%;
-   margin: 0 auto;
    margin-top: 96px;
    /* background-color: red; */
 
@@ -227,9 +236,13 @@
     text-align: center;
     padding: 15px 150px;
 }
+.sec-3-heading{
+    padding-bottom: 30px;
+}
+
 .image-container{
     width: 100%;
-    padding: 50px;
+    /* padding: 50px; */
 }
 .div1{
     display: grid;
@@ -251,6 +264,25 @@
 .image-container img {
     width: 100%;
     height: 100%;
+    border-radius: 16px;
+}
+
+.img-box {
+    position: relative;
+    border-radius: 16px;
+}
+
+.img-box p {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    color: #FFF;
+    font-weight: 800;
+    line-height: normal;
 }
 
 
@@ -258,8 +290,6 @@
 
 /* section4 */
 .section-4 {
-max-width: 82.5%;
-   margin: 0 auto;
    margin-top: 96px;
 }
 /* .top{
@@ -295,7 +325,7 @@ max-width: 82.5%;
     padding: 4% 2% 2% 2%;
     border-radius: 1rem;
     border: 1px solid rgba(41, 206, 246, 0.20);
-    background: rgba(41, 206, 246, 0.05);
+    background: rgba(251, 181, 99, 0.05);
 }
 
 .pic{
@@ -321,135 +351,18 @@ max-width: 82.5%;
     padding: 4% 2% 2% 2%;
     border-radius: 1rem;
     border: 1px solid rgba(41, 206, 246, 0.20);
-    background: rgba(41, 206, 246, 0.05);
+    background: rgba(233, 68, 68, 0.05);
     margin: 2% 25%;
 }
 
 
-
-
-
-/* section 5 */
-.section-5 {
-    max-width: 82.5%;
-    margin: 0 auto;
-}
-.banner1-img img{
-    width: 100%;
-    padding: 2% 4% .5%;
-}
-
-.banner2-img img{
-    width: 100%;
-    padding: 2% 4% .5%;
-}
-
-/* .section-5{
-        margin: 0 7%; 
-} */
-
-.banner1{
-    /* size: 100%; */
-
-}
-
-.banner1-text-firstline{
-    display: flex;
-   align-items: center;
-}
-
-.fa-solid{
-    padding: .2% 1% 2% .2%;
-}
-
-.banner1-text-firstline p{
-    padding-right: 4.5%;
-}
-
-.banner1-text  button{
-    padding: 14px 34px;
-    border: none;
-    outline: none;
-    border-radius: 0.5rem;
-    background: #FF5400;
-    color: #FFF;
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: 800;
-}
-.banner1-text{
-    width: 38%;
-    height: 30%;
-    border-radius: 1rem;
-    border: 0.10rem solid #FFF;
-    background: rgba(255, 255, 255, 0.80);
-    backdrop-filter: blur(2.5px);
-    position: relative;
-    bottom: 25rem;
-    left: 50%;
-    padding: 3%;
-}
-.price-tag{
-    font-size: 1.25rem;
-    font-weight: 800;
-    padding: 1.5% 0;
-}
-#section5-banner{
-    padding-bottom: 2.4%;
-}
-.banner2{
-    /* size: 100%; */
-    /* width: 90%; */
-    margin-top: -26%;
-    margin-left: -.4.5%;
-
-}
-.banner2-text{
-    width: 38%;
-    height: 30%;
-    border-radius: 1rem;
-    border: 0.10rem solid #FFF;
-    background: rgba(255, 255, 255, 0.80);
-    backdrop-filter: blur(2.5px);
-    position: relative;
-    bottom: 415px;
-    left: 11%;
-    padding: 3%;
-}
-.banner2-text  button{
-    padding: 14px 34px;
-    border: none;
-    outline: none;
-    border-radius: 0.5rem;
-    background: #FF5400;
-    color: #FFF;
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: 800;
-}
-.btn{
-    background: #FF5400;
-    color: #FFF;
-    padding: 16px;
-    text-align: center;
-    font-weight: 800;
-}
-.button{
-    margin-top: -24%;
-    margin-left: 43%;
-}
-
-.section-5 > .section4-title{
-    margin-top: 10%;
-}
-
 /* section-6 */
 .section-6{
-    padding: 7%;
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
 
 .title{
@@ -472,6 +385,7 @@ padding-bottom: 2%;
     font-weight: 700;
     line-height: 1.625rem; /* 162.5% */
     padding-bottom: 4%;
+    padding-left: 20px;
 }
 
 .section6-left-button{
@@ -489,10 +403,10 @@ padding-bottom: 2%;
 /* section 7 */
 
 .section-7{
-    padding: 2% 7%;
     display: flex;
     gap: 20px;
-    
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .sec7-title{
     padding-top: 6%;
@@ -551,23 +465,47 @@ margin-bottom: 1rem;
     border-radius: 1rem;
     border: 1px solid #FF5400;
     padding: 2.5rem;
+    width: 100%;
+    flex: 1;
+}
+
+.section-7-right {
+    width: 100%;
+    flex: 1;
+    position: relative;
+}
+
+.section-7-right img{
+    width: 100%;
+    height: 100%;
 }
 
 .sticker-tag{
     text-align: center;
     background-color: #FF5400;
     border-radius: 1rem;
-    width: 20rem;
-    height: 20%;
-    transform: rotate(-19.628deg);
-    position: relative;
+    max-width: 60%;
+    /* padding: 8px 16px; */
+    /* height: 20%; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
     justify-content: center;
     align-items: center;
-    bottom: 30%;
-    left: 50%;
+    bottom: 0;
+    right: 0;
+    transform: translate(0%,-60%) rotate(-20deg);
 }
 .sticker-tag p{
-    padding-top: 5%;
+    /* padding-top: 5%; */
+    color: #fff;
+}
+
+.sticker-tag h5{
+    font-size: 2rem;
+     font-weight: 800;
+      color: #fff;
 }
 
 
@@ -610,4 +548,48 @@ margin-bottom: 1rem;
     font-weight: 300;
     padding: 2% 14% 4%;
     text-align: center;
+}
+
+.ex-title{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+
+.comt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 30px 0 50px 0;
+}
+.ex-box1 > .name{
+    font-size: 18px;
+    font-weight: 800;
+}
+.ex-box2 > .name{
+    font-size: 18px;
+    font-weight: 800;
+}
+.ex-box3 > .name{
+    font-size: 18px;
+    font-weight: 800;
+}
+.ex-box1{
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.ex-box2{
+    padding: 16px;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+.ex-box3{
+    padding: 16px;
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
 }
